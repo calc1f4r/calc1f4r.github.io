@@ -12,7 +12,7 @@
 	const options = [
 		{
 			title: 'Selected as a Lift Scholar for 2024',
-			time: 'January 2024'
+			time: 'June 2024'
 		},
 		{
 			title: 'Won 1st place in a college-level debugging competition',
