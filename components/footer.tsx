@@ -1,7 +1,9 @@
 export function Footer() {
   return (
-    <footer className="pt-12 border-t">
-      <p className="text-sm text-gray-500">© 2024 Calcifer</p>
+    <footer className="pt-8 border-t">
+      <p className="text-xs text-gray-500 tracking-wide">
+        © {new Date().getFullYear()} Calcifer
+      </p>
     </footer>
   );
 }
