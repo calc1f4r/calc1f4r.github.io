@@ -38,7 +38,8 @@ export function AuditsSection() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="space-y-8">
+      className="space-y-8"
+    >
       <h2 className={`${playfair.className} text-xl font-medium tracking-wide`}>
         Competitive Audits
       </h2>
@@ -49,7 +50,8 @@ export function AuditsSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="group">
+            className="group"
+          >
             <Link href={audit.link}>
               <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                 <div className="grid grid-cols-5 gap-4 text-sm">
