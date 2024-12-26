@@ -31,11 +31,11 @@ export function ProjectCard({ title, description, href }: ProjectCardProps) {
           >
             <div className="space-y-2">
               <h3
-                className={`${playfair.className} text-base font-medium tracking-wide`}
+                className={`${playfair.className} text-sm font-medium tracking-wide`}
               >
                 {title}
               </h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
+              <p className="text-xs text-gray-600 leading-relaxed">
                 {description}
               </p>
             </div>
