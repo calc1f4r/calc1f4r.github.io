@@ -43,11 +43,11 @@ export default function BlogsSection() {
             show: { opacity: 1, y: 0 },
           }}
         >
-          <ProjectCard
-            title="How Secure Are NFTs?"
-            description="Secured 3rd Runner-Up at the Side Track Berlin Hackathon 2024, winning a $2,000 prize"
-            href="https://mirror.xyz/dashboard/edit/AX6ZUcD56lMY5YZNniDSxWb6qVM89CyqPeMx_EjTjXM"
-          />
+<ProjectCard
+  title="How Secure Are NFTs?"
+  description="Exploring NFT Security: In-Depth Analysis of ERC721 Vulnerabilities"
+  href="https://mirror.xyz/dashboard/edit/AX6ZUcD56lMY5YZNniDSxWb6qVM89CyqPeMx_EjTjXM"
+/>
         </motion.div>
 
       </motion.div>
