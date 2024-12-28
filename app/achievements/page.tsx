@@ -30,7 +30,7 @@ export default function AchievementsPage() {
             Solana Radar Hackathon{" "}
           </h3>
           <p className="text-gray-600 mb-2 text-xs">
-            3rd runner-up in the side-track Berlin Hackathon, 2024 earning $2000
+            3rd runner-up in the side-track Berlin Hackathon, 2024 
           </p>
           <p className="text-xs">
             Built{" "}
