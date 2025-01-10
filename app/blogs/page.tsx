@@ -46,7 +46,7 @@ export default function BlogsSection() {
 <ProjectCard
   title="How Secure Are NFTs?"
   description="Exploring NFT Security: In-Depth Analysis of ERC721 Vulnerabilities"
-  href="https://mirror.xyz/0xF2fc7a3074C2581781926b1D02374063f13680A1/AX6ZUcD56lMY5YZNniDSxWb6qVM89CyqPeMx_EjTjXM"
+  href="https://calc1f4r.hashnode.dev/how-secure-are-nfts"
 />
         </motion.div>
 
