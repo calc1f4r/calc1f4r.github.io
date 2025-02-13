@@ -22,7 +22,7 @@ export function HeroSection() {
         transition={{ delay: 0.2, duration: 0.5 }}
         className={`${playfair.className} text-3xl font-medium tracking-wider`}
       >
-        Calc1f4r
+        Calc1f4r/Yash Srivastava
       </motion.h1>
       <motion.div
         initial={{ y: 20 }}
