@@ -56,7 +56,7 @@ export function HeroSection() {
           >
             technical writer
           </motion.span>
-          with expertise in EVM chains and non-evm like Solana, Soroban, Sui, Aptos, etc.
+          with expertise in EVM chains and non-evm like Solana, Soroban, Sui, Aptos.
         </p>
         <p className="text-base text-gray-600 leading-relaxed max-w-2xl">
           For private audits, reach{" "}

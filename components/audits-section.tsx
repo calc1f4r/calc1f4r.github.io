@@ -46,7 +46,6 @@ const auditData = [
     findings:"6 H 10 M 3 L",
     link:"https://codehawks.cyfrin.io/c/2025-02-raac",
   },
-
 ];
 
 const arjunaData = [
@@ -95,7 +94,7 @@ export function AuditsSection() {
         className="space-y-8"
       >
         <h2 className={`${playfair.className} text-xl font-medium tracking-wide`}>
-          Personal Audits
+          Solo Audits
         </h2>
         <div className="grid gap-4">
           {auditData.map((audit, index) => (
