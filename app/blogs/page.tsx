@@ -50,6 +50,32 @@ export default function BlogsSection() {
 />
         </motion.div>
 
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            show: { opacity: 1, y: 0 },
+          }}
+        >
+<ProjectCard
+  title="Memory Safety ≠ Smart Contract Safety"
+  description="Why Solana Programs Still Need Audits Despite Rust's Memory Safety Features"
+  href="https://threesigma.xyz/blog/rust-and-solana/rust-solana-memory-safety-smart-contract-audits"
+/>
+        </motion.div>
+
+        <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            show: { opacity: 1, y: 0 },
+          }}
+        >
+<ProjectCard
+  title="Unlocking the Spellbook of EIP-2535: The Diamond Proxies"
+  description="A deep dive into the powerful upgradeable contract pattern that's revolutionizing smart contract development"
+  href="https://calc1f4r.hashnode.dev/unlocking-the-spellbook-of-eip-2535-the-diamond-proxies"
+/>
+        </motion.div>
+
       </motion.div>
     </motion.section>
   );

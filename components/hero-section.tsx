@@ -32,10 +32,31 @@ export function HeroSection() {
       >
         <p className="text-base text-gray-600 leading-relaxed max-w-2xl">
           A rusty 🦀
-          <i>
-            <span> security researcher </span>
-          </i>
-          with expertise in EVM chains, Solana, StarkNet, and Arweave.
+          <motion.span
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.5 }}
+            className="inline-block mx-1 italic text-gray-800"
+          >
+            security Researcher
+          </motion.span>
+          <motion.span
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.5 }}
+            className="inline-block mx-1 italic text-gray-800"
+          >
+            developer
+          </motion.span>
+          <motion.span
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7, duration: 0.5 }}
+            className="inline-block mx-1 italic text-gray-800"
+          >
+            technical writer
+          </motion.span>
+          with expertise in EVM chains and non-evm like Solana, Soroban, Sui, Aptos, etc.
         </p>
         <p className="text-base text-gray-600 leading-relaxed max-w-2xl">
           For private audits, reach{" "}
