@@ -30,6 +30,23 @@ const auditData = [
     findings: "1 M",
     link: "https://github.com/sherlock-audit/2024-08-woofi-solana-deployment-judging/issues/57",
   },
+  {
+    name:"crestal Network", 
+    platform:"Sherlock",
+    category:"Ai-Agents",
+    ranking:"#9",
+    findings:"1 M",
+    link:"https://github.com/sherlock-audit/2025-03-crestal-network-judging/issues/147",
+  },
+  {
+    name:"raac",
+    platform:"Codehawk",
+    category:"RWA ",
+    ranking:"#101",
+    findings:"6 H 10 M 3 L",
+    link:"https://codehawks.cyfrin.io/c/2025-02-raac",
+  },
+
 ];
 
 const arjunaData = [
@@ -65,6 +82,7 @@ const arjunaData = [
     findings: "1 M",
     link: "https://code4rena.com/audits/2025-01-pump-science",
   },
+  
 ];
 
 export function AuditsSection() {
@@ -77,7 +95,7 @@ export function AuditsSection() {
         className="space-y-8"
       >
         <h2 className={`${playfair.className} text-xl font-medium tracking-wide`}>
-          Competitive Audits
+          Personal Audits
         </h2>
         <div className="grid gap-4">
           {auditData.map((audit, index) => (
